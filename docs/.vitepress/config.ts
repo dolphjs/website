@@ -7,6 +7,7 @@ export default defineConfig({
   lang: "en",
   title: "dolph",
   titleTemplate: "dolphjs",
+  base: "/dolph",
   description:
     "dolphjs is a nodejs backend framework built to ease development time and shorten code while retaining simplicity.",
   head: [
