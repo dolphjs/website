@@ -14,7 +14,7 @@ export const root = {
       next: "Next page",
     },
     editLink: {
-      pattern: "https://github.com/dolphjs/dolph/edit/main/docs/:path",
+      pattern: "https://github.com/dolphjs/website/edit/main/docs/:path",
       text: "Edit this page on GitHub",
     },
     footer: {
