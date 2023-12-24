@@ -33,13 +33,13 @@ export const root = {
         items: [
           {
             text: "Typescript",
-            link: "/frameworks/ts",
-            activeMatch: "/frameworks/ts",
+            link: "/frameworks/ts/",
+            activeMatch: "/frameworks/ts/",
           },
           {
             text: "Javascript",
-            link: "/frameworks/js",
-            activeMatch: "/frameworks/js",
+            link: "/frameworks/js/",
+            activeMatch: "/frameworks/js/",
           },
         ],
       },
@@ -73,7 +73,7 @@ export const root = {
         items: [
           {
             text: "Why use dolphjs?",
-            link: "/guide/why",
+            link: "/guide/why/",
           },
           {
             text: "Getting Started",
@@ -90,11 +90,11 @@ export const root = {
         items: [
           {
             text: "Typescript",
-            link: "/frameworks/ts",
+            link: "/frameworks/ts/",
           },
           {
             text: "Javascript",
-            link: "/frameworks/js",
+            link: "/frameworks/js/",
           },
         ],
       },

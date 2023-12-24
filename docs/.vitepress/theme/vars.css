@@ -1,0 +1,225 @@
+/** CSS colors taken from https://github.com/vuejs/pinia/blob/v2/packages/docs/.vitepress/theme/styles/vars.css */
+
+/**
+ * Colors
+ * -------------------------------------------------------------------------- */
+
+:root {
+  /* --c-yellow: #a4c20d;
+  --c-yellow-light: #cef11e;
+  --c-yellow-lighter: #d0ee38;
+  --c-yellow-dark: #b3d40c;
+  --c-yellow-darker: #add400; */
+
+  --c-yellow: #ecad88;
+  --c-yellow-light: #e4b9a1;
+  --c-yellow-lighter: #e9c7b4;
+  --c-yellow-dark: #ec986b;
+  --c-yellow-darker: #d88152;
+
+  --c-purple: #635994;
+  --c-blue: #0048ff;
+  --c-blue-darker: #0d00ff;
+
+  --c-blue-light: #0062ff;
+
+  --c-white-dark: #ddd;
+  --vp-c-black: #02091d;
+  --vp-c-black-darker: #05031b;
+  --vp-c-black-light: #0b101f;
+  --vp-c-black-lighter: #0e121f;
+
+  --c-green-light: #c9e928;
+  --c-green: #b3d40c;
+  --c-green-dark: #a5c40e;
+  --c-green-darker: #9db910;
+
+  --vp-c-text-dark-1: #ccc;
+  --vp-c-text-dark-2: #c4dde6;
+  --vp-c-text-dark-3: #f4f4f4;
+  --c-text-light-1: #2c2857;
+  --c-text-light-2: #2c2769;
+  --c-text-light-3: #6358d1;
+  /* #f9fafb */
+
+  /* light theme is a bit different */
+  --vp-c-brand: var(--c-blue-darker);
+  --vp-c-brand-light: var(--c-green);
+  --vp-c-brand-lighter: var(--c-yellow-lighter);
+  --vp-c-brand-lightest: var(--c-yellow-lighter);
+
+  --vp-c-brand-dark: var(--c-green-dark);
+  --vp-c-brand-darker: var(--c-blue-darker);
+  --vp-c-brand-dimm: rgba(211, 211, 221, 0.08);
+  --vp-c-brand-text: var(--c-text-light-1);
+  --c-bg-accent: var(--c-white-dark);
+  --code-bg-color: var(--c-white-dark);
+  --code-inline-bg-color: var(--c-white-dark);
+  --code-font-family: "Poppins", sans-serif;
+  --code-font-size: 16px;
+
+  --vp-font-family-base: "Chinese Quotes", "Inter var", "Inter", ui-sans-serif,
+    system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Helvetica, Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --vp-font-family-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco,
+    Consolas, "Liberation Mono", "Courier New", monospace;
+
+  --vp-code-block-bg: var(--vp-c-bg-alt);
+}
+
+html.dark:root {
+  --vp-c-brand: var(--c-yellow);
+  --vp-c-brand-dark: var(--c-yellow-dark);
+  --vp-c-brand-darker: var(--c-yellow-darker);
+  --vp-c-brand-light: var(--c-yellow-light);
+
+  --vp-c-bg-alpha-with-backdrop: rgba(20, 25, 36, 0.7);
+  --vp-c-bg-alpha-without-backdrop: rgba(20, 25, 36, 0.9);
+
+  --vp-code-line-highlight-color: rgba(0, 0, 0, 0.5);
+
+  --vp-c-text: var(--c-text-dark-1);
+  --vp-c-brand-text: var(--c-text-light-1);
+  --c-text-light: var(--c-text-dark-2);
+  --c-text-lighter: var(--c-text-dark-3);
+  --c-divider: var(--c-divider-dark);
+  --c-bg-accent: var(--vp-c-black-light);
+  /* --vp-code-inline-bg: var(--vp-c-black-light); */
+
+  --vp-c-bg: var(--vp-c-black);
+  --vp-c-bg-soft: var(--vp-c-black-light);
+  --vp-c-bg-mute: var(--vp-c-black-light);
+  --vp-c-bg-soft-mute: var(--vp-c-black-lighter);
+  --vp-c-bg-alt: #0d121b;
+  --vp-c-bg-elv: var(--vp-c-bg-soft);
+  --vp-c-bg-elv-mute: var(--vp-c-bg-soft-mute);
+  --vp-c-mute: var(--vp-c-bg-mute);
+  --vp-c-mute-dark: var(--vp-c-black-lighter);
+  --vp-c-mute-darker: var(--vp-c-black-darker);
+
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    78deg,
+    var(--c-yellow-light) 30%,
+    var(--c-green-light)
+  );
+}
+
+/**
+ * Component: Button
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-button-brand-border: var(--c-yellow-dark);
+  --vp-button-brand-text: var(--vp-c-brand-text);
+  --vp-button-brand-bg: var(--c-yellow);
+  --vp-button-brand-hover-border: var(--c-yellow-light);
+  --vp-button-brand-hover-text: var(--vp-c-brand-text);
+  --vp-button-brand-hover-bg: var(--c-yellow-light);
+  --vp-button-brand-active-border: var(--c-yellow-dark);
+  --vp-button-brand-active-text: var(--vp-c-brand-text);
+  --vp-button-brand-active-bg: var(--vp-button-brand-bg);
+}
+
+/**
+ * Component: Home
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(
+    292deg,
+    var(--c-green-dark) 50%,
+    var(--c-green-light)
+  );
+  --vp-home-hero-image-background-image: linear-gradient(
+    -15deg,
+    var(--c-purple) 30%,
+    var(--c-yellow-light) 65%,
+    var(--c-green-light) 30%
+  );
+  --vp-home-hero-image-filter: blur(40px);
+}
+
+.VPHero .VPImage.image-src {
+  max-height: 192px;
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+  .VPHero .VPImage.image-src {
+    max-height: 256px;
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(72px);
+  }
+  .VPHero .VPImage.image-src {
+    max-height: 320px;
+  }
+}
+
+/**
+ * Component: Algolia
+ * -------------------------------------------------------------------------- */
+
+.DocSearch {
+  --docsearch-primary-color: var(--vp-c-brand) !important;
+}
+
+html.dark .DocSearch,
+html.dark .DocSearch-Modal {
+  --docsearch-container-background: rgba(9, 10, 17, 0.8);
+  --docsearch-modal-background: var(--vp-c-black);
+  --docsearch-modal-shadow: inset 1px 1px 0 0 #2c2e40, 0 3px 8px 0 #000309;
+  --docsearch-hit-color: var(--c-text-dark-1);
+  --docsearch-hit-active-color: var(--c-text-light-1);
+  --docsearch-hit-shadow: none;
+  --docsearch-hit-background: var(--vp-c-black-light);
+  --docsearch-footer-background: var(--vp-c-black-light);
+  --docsearch-footer-shadow: inset 0 1px 0 0 rgba(73, 76, 106, 0.5),
+    0 -4px 8px 0 rgba(0, 0, 0, 0.2);
+  --docsearch-logo-color: var(--vp-c-brand);
+  --docsearch-muted-color: var(--c-text-light-3);
+}
+
+html.dark .DocSearch-Logo svg .cls-1,
+html.dark .DocSearch-Logo svg .cls-2 {
+  fill: var(--vp-c-brand);
+}
+
+/**
+ * Code blocks
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --shiki-color-text: #333333;
+  --shiki-color-background: #eeeeee;
+  --shiki-token-constant: #4876d6;
+  --shiki-token-string: #c96765;
+  --shiki-token-comment: #767d94;
+  --shiki-token-keyword: #994cc3;
+  --shiki-token-parameter: #0c969b;
+  --shiki-token-function: #4876d6;
+  --shiki-token-string-expression: #c96765;
+  --shiki-token-punctuation: #333333;
+  --shiki-token-link: #c96765;
+}
+
+html.dark:root {
+  --shiki-color-text: #ffffff;
+  --shiki-color-background: #333333;
+  --shiki-token-constant: #82aaff;
+  --shiki-token-string: #ecc48d;
+  --shiki-token-comment: #8b9090;
+  --shiki-token-keyword: #c792ea;
+  --shiki-token-parameter: #7fdbca;
+  --shiki-token-function: #82aaff;
+  --shiki-token-string-expression: #ecc48d;
+  --shiki-token-punctuation: #ffffff;
+  --shiki-token-link: #ecc48d;
+}
