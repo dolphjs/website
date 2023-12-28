@@ -73,7 +73,7 @@ export const root = {
         items: [
           {
             text: "Why use dolphjs?",
-            link: "/guide/why/",
+            link: "/guide/why",
           },
           {
             text: "Getting Started",
@@ -86,15 +86,41 @@ export const root = {
         ],
       },
       {
-        text: "Languages",
+        text: "Overview",
         items: [
           {
-            text: "Typescript",
-            link: "/frameworks/ts/",
+            text: "Project structure",
+            link: "/project-structure/",
           },
           {
-            text: "Javascript",
-            link: "/frameworks/js/",
+            text: "Routes",
+            link: "/routes/",
+            // items: [
+            //   {
+            //     text: "Typescript",
+            //     link: "/frameworks/ts/",
+            //   },
+            //   {
+            //     text: "Javascript",
+            //     link: "/frameworks/js/",
+            //   },
+            // ],
+          },
+          {
+            text: "Controllers",
+            link: "/controllers/",
+          },
+          {
+            text: "Services",
+            link: "/services/",
+          },
+          {
+            text: "Models",
+            link: "/models/",
+          },
+          {
+            text: "Middlewares",
+            link: "/middlewares/",
           },
         ],
       },

@@ -22,7 +22,9 @@ port: 3030
 
 In the case where you want your database url to be secret (recommended) then you just have to replace the url with **sensitive** and this keyword would tell dolphjs to look for an environmetal variable `MONGO_URL` and parse it's value for the url.
 
-_Note: the MONGO_URL variable should be specified in your '.env' file._
+::: info
+the MONGO_URL variable should be specified in your '.env' file
+:::
 
 2. The middleware field currently accepts only one middleware which is `cors`. This is used if you want to enable cors which be default isn't enabled.
 
@@ -41,8 +43,6 @@ middlewares:
 
 As shown in the code snippet above, the activate field when set to true tells dolphjs to enable cors using the other options passed like origin and methods.
 
-_Note: the cors field accepts all the options it accepts if it were to be configured with code._
-
 ## Database Configurations
 
 As at the current version, dolphjs provides out of the box support for mongodb and mysql databases and one of these is automating connection to the database server.
@@ -60,3 +60,5 @@ dolph.start();
 ```
 
 2 For Mysql - If you choosed mysql as you database when being prompted by the CLI then you should have a config directory with an db.config file in there.
+
+::: details the cors field accepts all the options it accepts if it were to be configured with code

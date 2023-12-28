@@ -1,6 +1,9 @@
 import { defineConfig } from "vitepress";
 import { algolia } from "./locales/algolia";
 import { root } from "./locales/root";
+import Container from "markdown-it-container";
+
+const codeRE = /^code\s+(.*)$/;
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -14,6 +17,17 @@ export default defineConfig({
     theme: {
       light: "css-variables",
       dark: "css-variables",
+    },
+    config: (md) => {
+      md.use(Container, "code", {
+        validate: (params) => params.trim().match(codeRE),
+        render: (tokens, idx) => {
+          const m = tokens[idx].info.trim().match(codeRE);
+          if (tokens[idx].nesting === 1)
+            return `<div><div class="code-file">${m[1]}</div>`;
+          else return "</div>\n";
+        },
+      });
     },
   },
   head: [

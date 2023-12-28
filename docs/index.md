@@ -6,7 +6,7 @@ hero:
   name: "dolph.js"
   tagline: "The nodejs framework for you."
   image:
-    src: /dolphjs.svg
+    src: /dolph.png
     alt: dolphjs
   actions:
     - theme: brand

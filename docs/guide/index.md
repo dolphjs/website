@@ -1,14 +1,24 @@
 # Getting Started
 
+Get started with the CLI application for full support or download the package into your codebase and build from scratch.
+
 ## Overview
 
-This framework is a typescript and javascript backend framework built to ease development time and shorten code while retaining simplicity.
+This framework is a typescript and javascript backend framework built to ease development and shorten code while retaining simplicity.
 
-It is built on the express.js framework and offers a wide range of classes, methods, functions and utility tools, from error handling middlewares to the best utiity loggers to mention but a few.
+It is built on the express.js framework and offers a wide range of classes, methods, functions and utility tools, from error handling middlewares to the best utiity loggers, to mention but a few.
+
+## Prerequisites
+
+- Node.js - **v18.0.0** or higher
+- Text editor or IDE - We recomend [Visual Studio Code](https://code.visualstudio.com)
+- Package manager - npm or yarn or pnpm. We recommend [yarn](https://yarnpkg.com/)
 
 ## Installation
 
-1. Install the CLI application first:
+You'll need a terminal for this process or you can use the interated terminal provide by Visual studio code if you are using that.
+
+1. Install the CLI application first by running this command:
 
 ::: code-group
 

@@ -1,0 +1,11 @@
+
+Codeblock with file name:
+
+::: code main.ts
+
+```ts
+// do this inside your main.ts file
+export default {}
+```
+
+:::

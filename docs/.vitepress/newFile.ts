@@ -5,7 +5,7 @@ export default defineConfig({
   lang: "en",
   title: "dolphjs",
   description:
-    "dolphjs is a nodejs backend framework built to ease development time and shorten code while retaining simplicity.",
+    "dolphjs is a nodejs backend framework built to ease development and shorten code while retaining simplicity.",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
     ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
