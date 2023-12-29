@@ -93,8 +93,8 @@ export const root = {
             link: "/project-structure/",
           },
           {
-            text: "Routes",
-            link: "/routes/",
+            text: "Routers",
+            link: "/routers/",
             // items: [
             //   {
             //     text: "Typescript",
@@ -121,6 +121,10 @@ export const root = {
           {
             text: "Middlewares",
             link: "/middlewares/",
+          },
+          {
+            text: "CLI",
+            link: "/cli/",
           },
         ],
       },
