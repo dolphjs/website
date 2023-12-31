@@ -38,7 +38,7 @@ But dolph offers easier ways to achiver this:
 
 ## Use of decorator
 
-As you can see in the sample code above, a `TryCatchAsyncDec` decorator is being used on the **greetUser** method. This decorator wraps the code in the method in a try-catch block and handles error's seeminglessly. To learn more check [here](/decorators).
+As you can see in the sample code above, a `TryCatchAsyncDec` decorator is being used on the **greetUser** method. This decorator wraps the code in the method in a try-catch block and handles error's seeminglessly. To learn more check [here](/decorators/).
 
 ## Function call
 

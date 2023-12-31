@@ -56,7 +56,7 @@ Above is just a basic view of the project structure, however we would explain ot
 
 - **models**: this holds the database design / models of the application and it's advisable that for each collection/ table, a new subfolder is created which could contain not only the models but model types, schema, configs e.t.c.
 
-- **routes**: this is the directory where route are kept. Each unique route has a subfolder with it's name. In an OOP environment, a file with a class which extends [DolphRouteHandler](/routes/). Also, there is an index.ts file present in the directory and it imports all the route classes into one array which is then exported and injected into the server.ts file.
+- **routes**: this is the directory where route are kept. Each unique route has a subfolder with it's name. In an OOP environment, a file with a class which extends [DolphRouteHandler](/routers/). Also, there is an index.ts file present in the directory and it imports all the route classes into one array which is then exported and injected into the server.ts file.
 
 - **services**: this is a very important directory which could hold a lot of files and subfolders depending on the size of the project. It holds business logic which could be used by several class-methods in a class controller and can also hold code for external services like third-party software. In an OOP environment, a service file is present in this directory extends the `DolphServiceHandler` class.
   In a large codebase where services would be used across several controllers, it is advisable to create an `index.ts` file with a service in which all the services are injected into and it's exported and used to access all sevices.
