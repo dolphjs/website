@@ -46,3 +46,5 @@ Another noticable feature of this class which is unique from other dolph classes
 ::: info
 the name of the service is the name the dolph engine is going to use to identify each dolph service classes
 :::
+
+Services aren't meant to be limited to database interactions but they can be used for other processes. They are basically just classes that implements methods which can be used across serveral controller methods.
