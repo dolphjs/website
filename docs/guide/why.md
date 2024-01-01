@@ -1,6 +1,6 @@
 # Why
 
-There are several pretty decent Node.js frameworks out there, and you might be wondering: why should I use this one? Apparently, dolph.js has it's uniqueness which includes:
+There are several pretty decent Node.js frameworks out there, and you might be wondering: why should I use this one? Apparently, dolph has it's uniqueness which includes:
 
 - Enforcing code styles and implementation which improves efficiency of codes.
 - Enforcing code styles and implementation which tries to maintain a clean codebase.
