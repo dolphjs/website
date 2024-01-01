@@ -53,7 +53,7 @@ However, it is advisable to place the interface in an `interface` directory unde
 │        ├─ user.models.ts
 ```
 
-You might be wondering the function of the `transformDoc` plugin, to satisfy your curiousity read about it and more [here](/decorators).
+You might be wondering the function of the `transformDoc` plugin, to satisfy your curiousity read about it and more [here](/decorators/).
 
 ## MySQL
 
