@@ -123,6 +123,14 @@ export const root = {
             link: "/middlewares/",
           },
           {
+            text: "Decorators",
+            link: "/decorators/",
+          },
+          {
+            text: "Databases",
+            link: "/databases/",
+          },
+          {
             text: "CLI",
             link: "/cli/",
           },

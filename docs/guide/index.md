@@ -83,3 +83,9 @@ dolph-cli watch
 ```
 
 :::
+
+## Compatibility
+
+Dolph is compatible with any package that can be used in an express application. This means that you can still use the same packages you use with express to build dolph applications.
+
+::: details this only true for packages that are compatible with node engine v18.0 and above
