@@ -65,3 +65,61 @@ Most commands, and some options, have aliases. Try running `dc new --help` to se
 Run `dolph-cli <command>` --help for any of the following commands to see command-specific options.
 
 See usage for detailed descriptions for each command.
+
+| Command  |  Alias   | Description                                                                 |
+| -------- | :------: | :-------------------------------------------------------------------------- |
+| new      |    nw    | Scaffolds a new dolph project with neccesary configurations.                |
+| generate |    g     | Generates files/folders and link them if neccessary based on the schematic. |
+| watch    | **none** | Starts the application in watch (dev) mode                                  |
+| start    |   none   | Starts the application (production)                                         |
+
+## Usage
+
+### dolph new
+
+Scaffolds a new dolph project with neccessary configurations.
+
+::: code-group
+
+```sh [normal]
+dolph-cli new <name>
+```
+
+```sh [short]
+dc nw <name>
+```
+
+:::
+
+**Description**
+
+Creates and initializes a new Dolph project with configurations.
+
+- Creates a directory with the given `<name>`.
+- If a `.` was passed in place of _name_ then the project is created in that directory.
+- Adds configuration files to the project directory
+
+### dolph generate
+
+Generates files/folders and link them if neccessary based on the schematic
+
+::: code-group
+
+```sh [normal]
+dolph-cli generate <schematic> <name>
+```
+
+```sh [short]
+dc g <schematic> <name>
+```
+
+:::
+
+**Arguments**
+
+| Argument      | Description                                                                |
+| ------------- | -------------------------------------------------------------------------- |
+| `<schematic>` | The shcmeatic is an argument to specify the type of file/folder to create. |
+| `<name>`      | Th name of this schematic to be created.                                   |
+
+**Schematics**
