@@ -17,16 +17,22 @@ hero:
       link: https://github.com/dolphjs/dolph
 
 features:
-  - title: Easy to use
+  - icon: 😊
+    title: Easy to use
     details: Use a simple and familiar code syntax isnpired by expressjs and nestjs.
-  - title: Choose paradigm
-    details: Choose between object oriented programming approach or functional approach.
-  - title: Lesser development time
-    details: Use utility functions and features provided for you by dolphjs to reduce the development time.
-  - title: Simplicity
+  - icon: 🚀
+    title: Ship and deploy code faster
+    details: Use utility functions and features provided for you by dolphjs to speed development.
+  - icon: ✨
+    title: Simplicity
     details: Everything is kept as simple as it could be, no need for complications.
-  - title: Clean-code oriented
+  - icon: 🧹
+    title: Clean-code oriented
     details: Enforces code and style guides that makes sure that clean code practice is adheard to
-  - title: Performance oriented
+  - icon: 🔄
+    title: Choose paradigm
+    details: Choose between object oriented programming approach or functional approach.
+  - icon: ⚡
+    title: Performance oriented
     details: Enforces code and styles guides that improve performance.
 ---
