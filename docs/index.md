@@ -2,9 +2,13 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+title: Dolph
+titleTemplate: The nodejs framework for you
+
 hero:
-  name: "dolph.js"
-  tagline: "The nodejs framework for you."
+  name: "Dolph"
+  text: "The nodejs framework for you"
+  tagline: "typescript and javascript nodejs backend framework built to ease development and shorten code while retaining simplicity"
   image:
     src: /dolph.png
     alt: dolphjs
@@ -36,3 +40,49 @@ features:
     title: Performance oriented
     details: Enforces code and styles guides that improve performance.
 ---
+
+<style>
+html.dark:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-c-bg: #02091d;
+    --vp-c-bg-soft: #0b101f;
+  --vp-c-bg-mute: #0b101f;
+  --vp-c-bg-soft-mute: #0e121f;
+  --vp-c-bg-alt: #0d121b;
+  --vp-c-bg-elv: #0b101f;
+  --vp-c-bg-elv-mute: #0b101f;
+  --vp-c-mute:#0b101f;
+  --vp-c-mute-dark: #0e121f;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
+
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
+  --vp-home-hero-image-filter: blur(44px);
+
+  --c-bg-accent: #ddd;
+}
+
+:root{
+   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
+
+  --vp-c-text-dark-1: #ccc;
+  --vp-c-text-dark-2: #c4dde6;
+  --vp-c-text-dark-3: #f4f4f4;
+  
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
+  --vp-home-hero-image-filter: blur(44px);
+
+  --c-bg-accent: #ddd;
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
+  }
+}
+</style>

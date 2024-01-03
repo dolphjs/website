@@ -14,10 +14,10 @@ export default defineConfig({
   description:
     "dolphjs is a nodejs backend framework built to ease development time and shorten code while retaining simplicity.",
   markdown: {
-    theme: {
-      light: "css-variables",
-      dark: "css-variables",
-    },
+    // theme: {
+    //   light: "css-variables",
+    //   dark: "css-variables",
+    // },
     config: (md) => {
       md.use(Container, "code", {
         validate: (params) => params.trim().match(codeRE),
