@@ -123,3 +123,35 @@ dc g <schematic> <name>
 | `<name>`      | Th name of this schematic to be created.                                   |
 
 **Schematics**
+
+| Name       | Alias | Description                                                                                                                 |
+| ---------- | :---: | :-------------------------------------------------------------------------------------------------------------------------- |
+| service    |   s   | Generates a dolph service file.                                                                                             |
+| controller |   c   | Generates a dolph controller file.                                                                                          |
+| routes     |   r   | Generates a dolph routes file.                                                                                              |
+| models     |   m   | Generates a dolph models file.                                                                                              |
+| all        |   a   | Generates all schematics for the name field provided, it is recommended to use immediately after running the `new` command. |
+
+### dolph build
+
+Compiles code in the `src` directory into the `app` directory, from typescript to javascript.
+
+```sh
+dolph-cli build
+```
+
+### dolph start
+
+Compiles and runs a dolph application in production mode.
+
+```sh
+dolph-cli start
+```
+
+### dolph watch
+
+Compiles and runs a dolph application in watch / dev mode.
+
+```sh
+dolph-cli watch
+```
