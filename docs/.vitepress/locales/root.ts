@@ -19,7 +19,7 @@ export const root = {
     },
     footer: {
       message: "Released under the MIT License.",
-      copyright: `Copyright © 2023-${new Date().getFullYear()} Utee & contributors`,
+      copyright: `Copyright © 2023-${new Date().getFullYear()} Utibeabasi Ekong & contributors`,
     },
     nav: [
       {

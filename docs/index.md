@@ -72,6 +72,11 @@ html.dark:root {
   --vp-home-hero-image-filter: blur(44px);
 
   --c-bg-accent: #ddd;
+    --vp-font-family: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: var(--vp-font-family);
 }
 
 @media (min-width: 640px) {
