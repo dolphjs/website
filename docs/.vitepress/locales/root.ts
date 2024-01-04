@@ -138,6 +138,24 @@ export const root = {
           },
         ],
       },
+      {
+        text: "Security",
+        collapsed: true,
+        items: [
+          {
+            text: "Authentication",
+            link: "/authentication/",
+          },
+          {
+            text: "Authorization",
+            link: "/authorization/",
+          },
+          {
+            text: "Encrypting and Hashing",
+            link: "/encryption/",
+          },
+        ],
+      },
     ],
   },
 };
