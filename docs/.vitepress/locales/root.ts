@@ -70,6 +70,7 @@ export const root = {
     sidebar: [
       {
         text: "Guide",
+        collapsed: false,
         items: [
           {
             text: "Why use dolphjs?",
@@ -87,6 +88,7 @@ export const root = {
       },
       {
         text: "Overview",
+        collapsed: false,
         items: [
           {
             text: "Project structure",
@@ -133,6 +135,24 @@ export const root = {
           {
             text: "CLI",
             link: "/cli/",
+          },
+        ],
+      },
+      {
+        text: "Security",
+        collapsed: true,
+        items: [
+          {
+            text: "Authentication",
+            link: "/authentication/",
+          },
+          {
+            text: "Authorization",
+            link: "/authorization/",
+          },
+          {
+            text: "Encrypting and Hashing",
+            link: "/encryption/",
           },
         ],
       },
