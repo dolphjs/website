@@ -1,6 +1,6 @@
 # Configuration
 
-After creating the project, installing dependencies and choosing project presets, you'll notice the `dolph-cli.yaml` file present in your project root. This file contains the presets you choosed when being prompted and it's advisable not to be edited.
+After creating the project, installing dependencies and choosing project presets, you'll notice the `dolph_cli.yaml` file present in your project root. This file contains the presets you choosed when being prompted and it's advisable not to be edited.
 
 Another file you'll notice is the `dolph_config.yaml` file also in your project root directory and now this is the file you are going to modify based on your needs.
 As at the current version, the file accepts only these configuration fields:

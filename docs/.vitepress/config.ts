@@ -64,11 +64,14 @@ export default defineConfig({
     // ],
 
     socialLinks: [{ icon: "github", link: "https://github.com/dolphjs/dolph" }],
-    algolia: {
-      appId: "MY12T9HC2R",
-      apiKey: "2fcb3bd54eef2a4852e0a15286cc5bf7",
-      indexName: "dolphjs",
-      locales: algolia,
+    search: {
+      provider: "algolia",
+      options: {
+        appId: "MY12T9HC2R",
+        apiKey: "2fcb3bd54eef2a4852e0a15286cc5bf7",
+        indexName: "dolphjs",
+        locales: { ...algolia },
+      },
     },
   },
   locales: {

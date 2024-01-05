@@ -31,7 +31,7 @@ Once installed, you can invoke CLI commands directly from your OS command line t
 ::: code-group
 
 ```sh [normal]
-dolph-cli --help
+dolph --help
 ```
 
 ```sh [short]
@@ -41,7 +41,7 @@ dc --help
 :::
 
 ::: info
-The **dc** command is the short form of **dolph-cli**
+The **dc** command is the short form of **dolph cli**
 :::
 
 To get help of an individual command, use the following construct. Substitute any command, like **new** , **start** e.t.c, where you see **generate** in the example below to get detailed help and info regarding the command.
@@ -62,7 +62,7 @@ Most commands, and some options, have aliases. Try running `dc new --help` to se
 
 ## Commands
 
-Run `dolph-cli <command>` --help for any of the following commands to see command-specific options.
+Run `dolph <command>` --help for any of the following commands to see command-specific options.
 
 See usage for detailed descriptions for each command.
 
@@ -82,7 +82,7 @@ Scaffolds a new dolph project with neccessary configurations.
 ::: code-group
 
 ```sh [normal]
-dolph-cli new <name>
+dolph new <name>
 ```
 
 ```sh [short]
@@ -106,7 +106,7 @@ Generates files/folders and link them if neccessary based on the schematic
 ::: code-group
 
 ```sh [normal]
-dolph-cli generate <schematic> <name>
+dolph generate <schematic> <name>
 ```
 
 ```sh [short]
@@ -137,7 +137,7 @@ dc g <schematic> <name>
 Compiles code in the `src` directory into the `app` directory, from typescript to javascript.
 
 ```sh
-dolph-cli build
+dolph build
 ```
 
 ### dolph start
@@ -145,7 +145,7 @@ dolph-cli build
 Compiles and runs a dolph application in production mode.
 
 ```sh
-dolph-cli start
+dolph start
 ```
 
 ### dolph watch
@@ -153,5 +153,5 @@ dolph-cli start
 Compiles and runs a dolph application in watch / dev mode.
 
 ```sh
-dolph-cli watch
+dolph watch
 ```
