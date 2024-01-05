@@ -72,6 +72,7 @@ See usage for detailed descriptions for each command.
 | generate |    g     | Generates files/folders and link them if neccessary based on the schematic. |
 | watch    | **none** | Starts the application in watch (dev) mode                                  |
 | start    |   none   | Starts the application (production)                                         |
+| config   |    cf    | Modifies the contents of the dolph_cli.yaml file                            |
 
 ## Usage
 
@@ -155,3 +156,27 @@ Compiles and runs a dolph application in watch / dev mode.
 ```sh
 dolph watch
 ```
+
+### dolph config
+
+Updates the values of the presets in the `dolph_cli.yaml` file.
+
+::: code-group
+
+```sh [normal]
+dolph config <argument> <value>
+```
+
+```sh [short]
+dc cf <argument> <value>
+```
+
+:::
+
+**Arguments**
+
+| Name | Description                                                                                 |
+| ---- | :------------------------------------------------------------------------------------------ |
+| -lg  | Updates the language field. Recognized values are: "ts" and "js".                           |
+| -pd  | Updates the paradigm field. Recognized values are: "oop" and "functional".                  |
+| -db  | Updates the database field. Recognized values are: "mongo", "postgresql", "mysql", "other". |
