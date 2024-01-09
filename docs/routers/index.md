@@ -30,7 +30,7 @@ export class UserRouter extends DolphRouteHandler<Dolph> {
 The code above asumes you have a `user.controller.ts` file in the controller directory which implements the methods: **getUsers** and **register**
 
 ::: info
-to create a router using the CLI, simply execute the $ dolph-cli g -r [name]
+to create a router using the CLI, simply execute the $ dolph g -r [name]
 :::
 
 All special classes in **dolph.js** have to call the super class in their constructor. Routers also call the **initRoutes()** method which is where all endpoints are routed to the appropriate controller.

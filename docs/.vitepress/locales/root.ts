@@ -88,7 +88,7 @@ export const root = {
       },
       {
         text: "Overview",
-        collapsed: false,
+        collapsed: true,
         items: [
           {
             text: "Project structure",

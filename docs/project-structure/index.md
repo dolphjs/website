@@ -1,6 +1,6 @@
 # Project strcuture
 
-This is basically the folder and file structure for a dolphjs project. After running the `dolph-cli new <project>` command, you must have noticed a generated project with the struture below:
+This is basically the folder and file structure for a dolphjs project. After running the `dolph new <project>` command, you must have noticed a generated project with the struture below:
 
 ```r
 .
@@ -8,7 +8,7 @@ This is basically the folder and file structure for a dolphjs project. After run
 ├─ .gitignore
 ├─ .swrcr
 ├─ .dolph_config.yaml
-├─ .dolph-cli.yaml
+├─ .dolph_cli.yaml
 ├─ package.json
 ├─ tsconfig.json
 ```
@@ -22,11 +22,11 @@ The `src` folder is where your code lies. The other files in the root directory:
 - .gitignore : where files and folders to be ignored by git when pushing your code are specified.
 - .swrcr: it's used by dolphjs to set path config
 - .dolph_config.yaml : this is the main file of a dolphjs project used to specify your configurations.
-- .dolph-cli.yaml: this is the file created and managed automatically by the CLI and shouldn't be modified.
+- .dolph_cli.yaml: this is the file created and managed automatically by the CLI and shouldn't be modified.
 - package.json: your project's config file which holds improtant info about your project
 - tsconfig.json: the typescript configuration file which can be edited to your needs.
 
-After running the `dolph-cli g -a <name>` command to generate an endpoint and it's folders, your project sturcture looks like this:
+After running the `dolph g -a <name>` command to generate an endpoint and it's folders, your project sturcture looks like this:
 
 ```r
 ├─ src
@@ -43,7 +43,7 @@ After running the `dolph-cli g -a <name>` command to generate an endpoint and it
 ├─ .gitignore
 ├─ .swrcr
 ├─ .dolph_config.yaml
-├─ .dolph-cli.yaml
+├─ .dolph_cli.yaml
 ├─ package.json
 ├─ tsconfig.json
 ```
@@ -75,4 +75,4 @@ Above is just a basic view of the project structure, however we would explain ot
 
 - **constants**: used for specifying constants. Also advisable to be made a subfolder based on it's content.
 
-::: details the sample file structure assumes you choosed typescript, oop and mongo as presets and you ran the generate command with **user** as the name. `dolph-cli g -a user`
+::: details the sample file structure assumes you choosed typescript, oop and mongo as presets and you ran the generate command with **user** as the name. `dolph g -a user`
