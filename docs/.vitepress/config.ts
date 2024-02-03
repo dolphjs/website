@@ -31,7 +31,7 @@ export default defineConfig({
     },
   },
   head: [
-    ["link", { rel: "icon", href: "/website/favicon.ico" }],
+    ["link", { rel: "icon", href: "/website/favicon.png" }],
     ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
     [
       "link",
@@ -47,7 +47,7 @@ export default defineConfig({
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "/dolphjs.svg",
+    logo: "/icon.svg",
     // nav: [
     //   { text: "Home", link: "/" },
     //   { text: "Examples", link: "/markdown-examples" },

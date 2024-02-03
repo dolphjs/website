@@ -10,7 +10,7 @@ hero:
   text: "The nodejs framework for you"
   tagline: "typescript and javascript nodejs backend framework built to ease development and shorten code while retaining simplicity"
   image:
-    src: /dolph.png
+    src: /logo.png
     alt: dolphjs
   actions:
     - theme: brand
