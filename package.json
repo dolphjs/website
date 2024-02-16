@@ -5,6 +5,7 @@
   "license": "MIT",
   "type": "module",
   "devDependencies": {
+    "@types/node": "^20.11.19",
     "vitepress": "^1.0.0-rc.32"
   },
   "scripts": {
