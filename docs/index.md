@@ -1,4 +1,10 @@
 ---
+page: true
+title: Dolph
+titleTemplate: The nodejs framework for you
+---
+
+<!-- ---
 layout: home
 
 title: Dolph
@@ -66,7 +72,7 @@ html.dark:root {
   --vp-c-text-dark-1: #ccc;
   --vp-c-text-dark-2: #c4dde6;
   --vp-c-text-dark-3: #f4f4f4;
-  
+
   --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
   --vp-home-hero-image-filter: blur(44px);
 
@@ -89,4 +95,11 @@ body {
     --vp-home-hero-image-filter: blur(68px);
   }
 }
-</style>
+</style> -->
+
+<script setup>
+import Home from "@theme/components/Home.vue"
+
+</script>
+
+<Home/>
